@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    background-color:rebeccapurple;
+    color: aliceblue;
+    height: 30px;
+    margin: 1px;
+    
+    
+    
+}
+
+.img{
+    height: 24px;
+    width: 64px;
+    
+}
+
+.nav {
+    background-color: black;
+    height: 50px;
+   
+    
+}
+.nav li {
+    display: inline-block;
+    padding: 10px;
+
+}
+.nav  a {
+    color: aliceblue;
+    background-color:rebeccapurple;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration:none ;
+    
+    
+}
+.nav li a:hover{
+    background-color: blueviolet;
+    color:rgb(17, 166, 91);
+}
+
